@@ -1,4 +1,4 @@
-# armbian-images
+# Helm Armbian Image Installation
 
 This repository contains Armbian images for the Helm v2a and Helm v2b devices.  These are the second generation Helms that are square shaped instead of the triangle shaped v1 Helms.  There are two different variants of the Helm v2 and it's important to install the correct image based on the revision of your hardware.  The FCC ID on the label on the bottom of your Helm can be used to determine what version you own.  Generally, but not guaranteed, Helm v2a devices were shipped prior to the Summer of 2022 whereas Helm v2b devices were shipped in the Summer and Fall of 2022.
 
