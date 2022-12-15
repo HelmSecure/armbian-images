@@ -15,6 +15,9 @@ Latest Arbmian Image:
 + Kernel and u-boot updates provided by Helm Debian Resitory hosted on GitHub
 + Other software package updates provided by Armbian and Debian projects
 
+## Issues
+[Known Issues](https://github.com/HelmSecure/armbian-images/issues)
+
 ## Installation Instructions
 1. Before installing Armbian on your Helm make sure that you've backed up any data that you need to preserve.  Once the Arbian image is programmed you will lose access to all data currently stored on your Helm.
 2. Helm v2 devices contain Rockchip rk3399 processors and so Rockchip tools are required to install the firmware.
