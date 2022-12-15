@@ -11,7 +11,7 @@ FCC ID: 2AYVZV11256G\
 Latest Arbmian Image: [Armbian_22.11.1-build-38_Helm-v2b_bullseye_legacy_4.4.213_minimal.img](https://github.com/HelmSecure/armbian-images/releases/download/v22.11.1-build-34/Armbian_22.11.1-build-38_Helm-v2b_bullseye_legacy_4.4.213_minimal.img)
 
 ## Notes
-+ Built from Armbian Bulleye release
++ Built from Armbian Bullseye release
 + Kernel and u-boot updates provided by Helm Debian Resitory hosted on GitHub
 + Other software package updates provided by Armbian and Debian projects
 + **Linux host PC is required for flashing the image**
@@ -20,13 +20,13 @@ Latest Arbmian Image: [Armbian_22.11.1-build-38_Helm-v2b_bullseye_legacy_4.4.213
 [Known Issues](https://github.com/HelmSecure/armbian-images/issues)
 
 ## Installation Instructions
-1. Before installing Armbian on your Helm make sure that you've backed up any data that you need to preserve.  Once the Arbian image is programmed you will lose access to all data currently stored on your Helm.
+1. Before installing Armbian on your Helm backup up any data that you need to preserve.  Once the Arbian image is programmed you will lose access to all data currently stored on your Helm.
 2. Helm v2 devices contain a Rockchip rk3399 SoC.  The Rockchip rkdeveloptool is required to flash the image.  Please following instruction found here for installing the rkdeveloptool on your Linux host PC.  https://github.com/rockchip-linux/rkdeveloptool
 3. Connect your Helm to power and to your router via ethernet
 4. When your Helm is fully booted, press and hold the power button for 25 seconds
 5. Remove the power cable, press the power button and hold, insert power cable.  Keep the power button pressed for 6 seconds after inserting power and then release.  This process will put your Helm into maskrom mode.
 6. Connect to the Helm via a usb-c cable to your Linux host computer using one of the two usb-c ports on the right of the ethernet port when looking at the Helm from the back.
-7. Confirm that your Linux host had detected the Helm is maskrom mode.  Running the lsusb command on the Linux host should show a device named
+7. Confirm that your Linux host had detected the Helm is maskrom mode.  Running the lsusb command on the Linux host should show a device named "Fuzhou Rockchip Electronics Company RK3399 in Mask ROM mode".  If the device doesn't show, attempt steps 4-6 again.
 8. Flash the image to your Helm using these commands:
 
 ```
