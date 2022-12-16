@@ -4,11 +4,11 @@ This repository contains Armbian images for the Helm v2a and Helm v2b devices. T
 
 **Helm v2a**\
 FCC ID: 15C-2AYVZ256G\
-Latest Arbmian Image: [Armbian_22.11.1-build-38_Helm-v2a_bullseye_legacy_4.4.213_minimal.img](https://github.com/HelmSecure/armbian-images/releases/download/v22.11.1-build-34/Armbian_22.11.1-build-38_Helm-v2a_bullseye_legacy_4.4.213_minimal.img)
+Latest Arbmian Image: [Armbian_22.11.1-build-38_Helm-v2a_bullseye_legacy_4.4.213_minimal.img](https://github.com/HelmSecure/armbian-images/releases/download/v22.11.1-build-38/Armbian_22.11.1-build-38_Helm-v2a_bullseye_legacy_4.4.213_minimal.img)
 
 **Helm v2b**\
 FCC ID: 2AYVZV11256G\
-Latest Arbmian Image: [Armbian_22.11.1-build-38_Helm-v2b_bullseye_legacy_4.4.213_minimal.img](https://github.com/HelmSecure/armbian-images/releases/download/v22.11.1-build-34/Armbian_22.11.1-build-38_Helm-v2b_bullseye_legacy_4.4.213_minimal.img)
+Latest Arbmian Image: [Armbian_22.11.1-build-38_Helm-v2b_bullseye_legacy_4.4.213_minimal.img](https://github.com/HelmSecure/armbian-images/releases/download/v22.11.1-build-38/Armbian_22.11.1-build-38_Helm-v2b_bullseye_legacy_4.4.213_minimal.img)
 
 ## Notes
 + Built from Armbian Bullseye release
