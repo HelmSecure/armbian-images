@@ -35,7 +35,7 @@ $ sudo rkdeveloptool wl 0 [the .img file downloaded from here]
 $ sudo rkdeveloptool ul helm-loader-build-38.bin
 $ sudo rkdeveloptool rd
 ```
-
+You can download the helm-loader-build-38.bin file here: [https://github.com/HelmSecure/armbian-images/releases/download/v22.11.1-build-38/helm-loader-build-38.bin](https://github.com/HelmSecure/armbian-images/releases/download/v22.11.1-build-38/helm-loader-build-38.bin)
 
 ## Armbian Instructions
 + To setup Armbian after flashing you will need to connect to your Helm over your network using SSH.  Please see instructions from Armbian about connecting via ssh for the initial setup: https://docs.armbian.com/User-Guide_Getting-Started/#how-to-login
