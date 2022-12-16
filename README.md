@@ -39,3 +39,7 @@ You can download the helm-loader-build-38.bin file here: [https://github.com/Hel
 
 ## Armbian Instructions
 + To setup Armbian after flashing you will need to connect to your Helm over your network using SSH.  Please see instructions from Armbian about connecting via ssh for the initial setup: https://docs.armbian.com/User-Guide_Getting-Started/#how-to-login
+
+## Gateway and Email Server Instructions 
+Download the following PDF for general instructions for setting up a Linux based email server with a gateway service to provide a static IP:
+[Gateway and Server Instructions](GatewayandServerInstructions-161222-2126-2.pdf)
