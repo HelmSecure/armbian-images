@@ -1,6 +1,6 @@
 # Helm Armbian Image Installation
 
-This repository contains Armbian images for the Helm v2a and Helm v2b devices.  These are the second generation Helms that are square shaped instead of the triangle shaped v1 Helms.  There are two different variants of the Helm v2 and it's important to install the correct image based on the revision of your hardware.  The FCC ID on the label on the bottom of your Helm can be used to determine what version you own.  Generally, but not guaranteed, Helm v2a devices were shipped prior to the Summer of 2022 whereas Helm v2b devices were shipped in the Summer and Fall of 2022.
+This repository contains Armbian images for the Helm v2a and Helm v2b devices. These are the second generation Helms that are square shaped instead of the triangle shaped v1 Helms. There are two different variants of the Helm v2 and it's important to install the correct image based on the revision of your hardware. The FCC ID on the label on the bottom of your Helm can be used to determine what version you own.
 
 **Helm v2a**\
 FCC ID: 15C-2AYVZ256G\
@@ -21,7 +21,7 @@ Latest Arbmian Image: [Armbian_22.11.1-build-38_Helm-v2b_bullseye_legacy_4.4.213
 
 ## Installation Instructions
 1. Before installing Armbian on your Helm, backup up any data that you need to preserve.  Once the Arbian image is programmed you will lose access to all data currently stored on your Helm.
-2. Helm v2 devices contain a Rockchip rk3399 SoC.  The Rockchip rkdeveloptool running on a Linus host is required to flash the image.  Please following instruction found here for installing the rkdeveloptool on a Linux box.  https://github.com/rockchip-linux/rkdeveloptool
+2. Helm v2 devices contain a Rockchip rk3399 SoC.  The Rockchip rkdeveloptool running on a Linux host is required to flash the image.  Please following instruction found here for installing the rkdeveloptool on a Linux box.  https://github.com/rockchip-linux/rkdeveloptool
 3. Connect your Helm to power and to your router via ethernet
 4. When your Helm is fully booted, press and hold the power button for 25 seconds
 5. Remove the power cable, press the power button and hold, insert power cable.  Keep the power button pressed for 6 seconds after inserting power and then release.  This process will put your Helm into maskrom mode.
