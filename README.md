@@ -30,10 +30,10 @@ Latest Arbmian Image: [Armbian_22.11.1-build-38_Helm-v2b_bullseye_legacy_4.4.213
 8. Flash the image to your Helm using these commands:
 
 ```
-$ sudo rkdeveloptool db helm-loader-build-38.bin
-$ sudo rkdeveloptool wl 0 [the .img file downloaded from here]
-$ sudo rkdeveloptool ul helm-loader-build-38.bin
-$ sudo rkdeveloptool rd
+$ sudo ./rkdeveloptool db helm-loader-build-38.bin
+$ sudo ./rkdeveloptool wl 0 [the .img file downloaded from here]
+$ sudo ./rkdeveloptool ul helm-loader-build-38.bin
+$ sudo ./rkdeveloptool rd
 ```
 You can download the helm-loader-build-38.bin file here: [https://github.com/HelmSecure/armbian-images/releases/download/v22.11.1-build-38/helm-loader-build-38.bin](https://github.com/HelmSecure/armbian-images/releases/download/v22.11.1-build-38/helm-loader-build-38.bin)
 
